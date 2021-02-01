@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+   background-image: linear-gradient(#af67e9, #6565e7);
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   
+    
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 10%;
+    bottom: 10%;
+    background-color:white; 
+    border-radius: 2em;
+    box-shadow: 10px 30px 24px rgba(0,0,0,0.2); 
+    font-family: 'Kumbh Sans', sans-serif;
+    
+    
+}
+
+.images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+        
+}
+
+    
+.img1 {
+    position: absolute;
+    top: -18em;
+    bottom: 0;
+    left: -60%;
+    
+   
+}
+
+.img2 {
+    position: relative;
+    height: 58vh;
+    width: 30em;
+    top: 3em;
+    left: -5em;
+
+}
+
+
+.QNA {
+    position: relative;
+    top: -19em;
+    left: 30em;
+    max-width: 30em;
+    margin-right: 0;
+    
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    row-gap: 1em;
+    position: relative;
+    top: 2em;
+    width: 100%;
+    
+
+
+}
+.question{
+     position: relative;
+     border-bottom: 1px solid hsl(240, 5%, 91%);
+     max-width: 90%;
+     padding-bottom: 1.5em;
+     font-size: small;
+    
+
+} 
+
+.icon-image {
+    position: relative;
+    left: 39%;
+    display: inline-block;
+    
+}
+
+.icon-image {
+    cursor: pointer;
+}
+
+.icon-image-2 {
+    left: 51.25%;
+}
+
+.icon-image-3 {
+    left: 42%;
+}
+
+.label {
+   color: hsl(238, 29%, 16%);
+   
+
+}
+
+.label:hover {
+    cursor: pointer;
+    color:  hsl(14, 88%, 65%);
+}
+
+.img3 {
+    position: relative;
+    left:-5.9em;
+    bottom: 20em;
+    height: 29vh;
+    width: 12em;
+    overflow: visible;
+
+
+}
+
+
