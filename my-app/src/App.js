@@ -13,7 +13,7 @@ export default function App() {
 
   var [downArrow, setDownArrow]= useState(<img className="icon-image" onClick={downArrowClickHandler} src="/images/icon-arrow-down.svg"/>);
   var [downArrow2, setDownArrow2]= useState(<img className="icon-image" onClick={downArrowClickHandler2} src="/images/icon-arrow-down.svg"/>);
-  var [downArrow3, setDownArrow3]= useState(<img style= {{left : "52%"}} className="icon-image icon-image-2" onClick={downArrowClickHandler3} src="/images/icon-arrow-down.svg"/>);
+  var [downArrow3, setDownArrow3]= useState(<img className="icon-image icon-image-1" onClick={downArrowClickHandler3} src="/images/icon-arrow-down.svg"/>);
   var [downArrow4, setDownArrow4]= useState(<img className="icon-image icon-image-2" onClick={downArrowClickHandler4} src="/images/icon-arrow-down.svg"/>);
   var [downArrow5, setDownArrow5]= useState(<img className="icon-image icon-image-3" onClick={downArrowClickHandler5} src="/images/icon-arrow-down.svg"/>);
 
@@ -56,13 +56,13 @@ export default function App() {
      
      para3 = <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
      setPara3(para3);
-     downArrow3= <img onClick={upArrowClickHandler3} className="icon-image icon-image-2" style={{transform: "rotateX(180deg)",left : "52%"}} src="./images/icon-arrow-down.svg"/>
+     downArrow3= <img onClick={upArrowClickHandler3} className="icon-image icon-image-1" style={{transform: "rotateX(180deg)",left : "52%"}} src="./images/icon-arrow-down.svg"/>
      setDownArrow3(downArrow3);
   };
 
   function upArrowClickHandler3()
   {
-    downArrow3 = <img onClick={downArrowClickHandler3} style= {{left : "52%"}} className="icon-image icon-image-2" src="./images/icon-arrow-down.svg"/>
+    downArrow3 = <img onClick={downArrowClickHandler3} className="icon-image icon-image-1" src="./images/icon-arrow-down.svg"/>
     setDownArrow3(downArrow3);
     para3 = "";
     setPara3(para3);
@@ -114,8 +114,8 @@ export default function App() {
         <img className="img2" src="./images/illustration-woman-online-desktop.svg" width="100%" height="100%"/>  
         <div className="QNA">
           
-         <h1>FAQ</h1>
-          
+         <h1 className="heading">FAQ</h1>
+ 
           
           <div className="flex-container">
              <div className="question">
