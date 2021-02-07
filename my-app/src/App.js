@@ -56,7 +56,7 @@ export default function App() {
      
      para3 = <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
      setPara3(para3);
-     downArrow3= <img onClick={upArrowClickHandler3} className="icon-image icon-image-1" style={{transform: "rotateX(180deg)",left : "52%"}} src="./images/icon-arrow-down.svg"/>
+     downArrow3= <img onClick={upArrowClickHandler3} className="icon-image icon-image-1" style={{transform: "rotateX(180deg)"}} src="./images/icon-arrow-down.svg"/>
      setDownArrow3(downArrow3);
   };
 
