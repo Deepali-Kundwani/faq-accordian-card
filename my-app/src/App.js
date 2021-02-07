@@ -144,6 +144,8 @@ export default function App() {
   </div>
 
   <img className= "images img3" src="./images/illustration-box-desktop.svg" width="100%" height="100%"/>
+  <img class="mobile-bg-image" src="./images/bg-pattern-mobile.svg" width="100%" height="100"/>
+  <img class="mobile-illustration" src="./images/illustration-woman-online-mobile.svg" width="100%" height="100"/>
     
     
     

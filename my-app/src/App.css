@@ -211,4 +211,43 @@ body {
 }
 
 
+.mobile-bg-image {
+    position: relative;
+    bottom: 99.5%;
+    width: 13em;
+    height: 13vh;
+    left: 12%;
 }
+
+.mobile-illustration {
+    position: relative;
+    bottom: 135%;
+    width: 15em;
+    height: 25vh;
+    left: 4%;
+}
+
+
+
+}
+
+@media all and (min-width:483px)
+{
+    .mobile-bg-image {
+        position: relative;
+        bottom: 99.5%;
+        width: 0;
+        height: 0;
+        left: 12%;
+    }
+
+    .mobile-illustration {
+        position: relative;
+        bottom: 135%;
+        width: 0;
+        height: 0;
+        left: 4%;
+    }
+}
+
+
